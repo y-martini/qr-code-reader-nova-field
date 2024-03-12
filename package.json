@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.2.22",
+    "form-backend-validation": "^2.3.3",
+    "laravel-mix": "^6.0.41",
+    "laravel-nova": "^1",
+    "lodash": "^4.17.21",
+    "vue": "^3.4.21",
+    "vue-loader": "^17.4.2",
+    "vue-qrcode-reader": "^5.5.3"
+  }
+}
